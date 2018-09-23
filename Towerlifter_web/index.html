@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    <meta http-equiv="Cache-control" content="no-cache"><meta http-equiv="Expires" content="0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>
+          var configAddress='http://192.168.1.155';
+    </script>
+    <script src="towerlifter_v1.js"></script>
+    <link rel="Stylesheet" href="http://h.mmmedia-online.de/ultraswitch_v1.css" type="text/css">
+    <link rel="shortcut icon" href="http://h.mmmedia-online.de/favicon.ico">
+    <TITLE>Towerlifter | DL5NAM-Edition</TITLE>
+</HEAD>
+<BODY>
+    <div id="content">
+        <div id="container" class="myLast"><div class="rotate">TowerLift 1</div><div id="panel1">
+            <div class="relayButton rounded-corners boff" id="button3" onClick="TowerCommand(3)" onmouseover="mouseIsOver()" onmouseout="mouseIsOut()">Lift UP</div>
+            <div class="relayButton rounded-corners boff" id="button1" onClick="TowerCommand(1)" onmouseover="mouseIsOver()" onmouseout="mouseIsOut()">Lift Down</div>
+            <div class="relayButton rounded-corners boff" id="button2" onClick="TowerCommand(2)" onmouseover="mouseIsOver()" onmouseout="mouseIsOut()">STOP</div>        
+            <div class="relayButton rounded-corners boff" id="statusButton"></div>        
+        </div></div><div id="tempResponse"></div>
+    </div>
+</BODY>
+</HTML>
