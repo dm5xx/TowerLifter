@@ -1,8 +1,5 @@
-
-
-
-
-
+// cc by DM5XX @ GNU GPLv3
+// LLAP! 
 
 #include <Ethernet.h>
 
